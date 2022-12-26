@@ -125,15 +125,14 @@ h6 {
   align-items: center;
 }
 
-
 #work  img {
   width: 100%;
   max-height: 200px;
+  box-shadow: 0px 5px 5px 0px #adb5bd;
 }
 
 .accordion .card{
-  background-color: 
-  #dfd6fc42;
+  background-color: #dfd6fc16;
 }
 
 .accordion .card-body{
@@ -161,6 +160,13 @@ button {
 
 /* About me section styles*/
 
+#about .layout .row {
+  align-items: center !important;
+}
+
+#about img {
+  box-shadow: 0px 5px 5px 0px #adb5bd;
+}
 /* Contact  section styles*/
 
 #contact .links {
