@@ -110,102 +110,13 @@ h6 {
   color:  #5e6c9b;
 }
 
+/* Work styles */
 
+#work .border-3 {
+  border-right: 3px solid #4e010a;
+}
 
-
-/* Accordion styles  */
-
-  .accordion {   
-    width:75%;  
-    overflow:hidden;   
-    margin:10px auto;   
-    color:#4d010e;  
-    background: #afd8f6; 
-    padding:10px;   
-}  
-
-.accordion section{   
-     float:left;  
-     overflow:hidden;   
-     color:#510f46;   
-     cursor:pointer;   
-     background:#510f46;    
-     margin:3px;   
-}  
-.accordion section:hover {  
-     background:#afd8f6; 
-}  
-.accordion section p {   
-     display:none;   
-}  
-.accordion section:after{  
-     position:relative;  
-     font-size:24px;  
-     color:#000;  
-     font-weight:bold;  
-}  
-.accordion section:nth-child(1):after{ content:'1'; }  
-.accordion section:nth-child(2):after{ content:'2'; }  
-.accordion section:nth-child(3):after{ content:'3'; }  
-.accordion section:nth-child(4):after{ content:'4'; }  
-.accordion section:nth-child(5):after{ content:'5'; }  
-.accordion section:target {   
-     background:#FFF;   
-     padding:10px;  
-}  
-.accordion section:target:hover {   
-     background:#FFF;   
-}  
-.accordion section:target h2 {  
-     width:100%;  
-}  
-.accordion section:target h2 a{   
-     color:#333;   
-     padding:0;  
-}  
-.accordion section:target p {  
-     display:block;  
-}  
-.accordion section h2 a{  
-     padding:8px 10px;  
-     display:block;   
-     font-size:16px;   
-     font-weight:normal;  
-     color:#eee;   
-     text-decoration:none;   
-}  
-.horizontal section{   
-     width:5%;   
-     height:90%;   
-     -moz-transition: width 0.2s ease-out;   
-     -webkit-transition:width 0.2s ease-out;  
-     -o-transition:width 0.2s ease-out;  
-     transition:width 0.2s ease-out;  
-}  
-.horizontal section:after{  
-     top:140px;  
-     left:15px;  
-}  
-.horizontal section h2 {   
-    -webkit-transform:rotate(90deg);  
-    -moz-transform:rotate(90deg);  
-    -o-transform: rotate(90deg);  
-    transform: rotate(90deg);  
-    width:240px;   
-    position:relative;   
-    left:-100px;   
-    top:85px;  
-}   
-/*On mouse over open slide*/  
-.horizontal :target{   
-    width:70%;  
-    height:300px;   
-}  
-.horizontal :target h2{   
-    top:0px;  
-    left:0;  
-    -webkit-transform:rotate(0deg);  
-    -moz-transform:rotate(0deg);  
-    -o-transform: rotate(0deg);  
-    transform: rotate(0deg);   
-}  
+#work h2 {
+  color:  #4e010a;
+}
+  
