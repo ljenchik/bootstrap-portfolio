@@ -7,7 +7,7 @@ body {
 
 body {
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
-  background: #f1f1f7 !important;
+  background: #f1f1f76b !important;
 }
 
 h1,
@@ -35,30 +35,21 @@ h6 {
   font-weight: 200;
   letter-spacing: 1px;
   font-size: 30px;
-  
-}
-
-#mainNav a {
-  color: #e9b4fe;
+  color: white;
 }
 
 #mainNav .navbar-toggler {
-  font-size: 14px;
-  padding: 8px 10px;
+  padding: 10px;
   color:  #4e010a;
 }
 
 #mainNav .navbar-nav > li > a {
-  font-size: 11px;
+  font-size: 16px;
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   letter-spacing: 2px;
-  text-transform: uppercase;
 }
 
-#mainNav .navbar-nav > li > a.active {
-  color: white;
-}
-
+#mainNav .navbar-nav > li > a.active,
 #mainNav .navbar-nav > li > a,
 #mainNav .navbar-nav > li > a:focus {
   color: white;
@@ -66,7 +57,7 @@ h6 {
 
 #mainNav .navbar-nav > li > a:hover,
 #mainNav .navbar-nav > li > a:focus:hover {
-  color: #5c568d;
+  color:  #4e010a;
 }
 
 #mainNav button {
@@ -74,13 +65,12 @@ h6 {
 }
 
 #mainNav i {
-  color: #5c568d;
+  color:  #4e010a;
 }
 
 #mainNav i:hover {
   color: #5e6c9b;
 }
-
 
 /* Hero section */
 .jumbotron {
@@ -94,7 +84,6 @@ h6 {
 
 .jumbotron h3 {
   margin-top: -30px;
-  
 }
 
 .sidebar {
@@ -113,22 +102,24 @@ h6 {
   color:  #5e6c9b;
 }
 
-/* Work styles */
 
-#work {
+/* Styles for all sections */
+.section {
   margin-top: 32px;
 }
 
-#work .border-3 {
+.section .border-3 {
   border-right: 3px solid #4e010a;
 }
 
-#work h2 {
+.section h2 {
   color:  #4e010a;
   text-align: end;
 }
 
-#work img {
+/* Work styles */
+
+#work  img {
   width: 90%;
   max-height: 300px;
 }
@@ -155,48 +146,9 @@ button {
 
 /* Skills section styles */
 
-#skills {
-  margin-top: 32px;
-}
-
-#skills .border-3 {
-  border-right: 3px solid #4e010a;
-}
-
-#skills h2 {
-  color:  #4e010a;
-  text-align: end;
-}
-
 /* About me section styles*/
 
-#about {
-  margin-top: 32px;
-}
-
-#about .border-3 {
-  border-right: 3px solid #4e010a;
-}
-
-#about h2 {
-  color:  #4e010a;
-  text-align: end;
-}
-
 /* Contact  section styles*/
-
-#contact {
-  margin-top: 32px;
-}
-
-#contact .border-3 {
-  border-right: 3px solid #4e010a;
-}
-
-#contact h2 {
-  color:  #4e010a;
-  text-align: end;
-}
 
 #contact .links {
   display: flex;
