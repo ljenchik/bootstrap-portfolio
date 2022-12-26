@@ -116,7 +116,13 @@ h6 {
   border-right: 3px solid #4e010a;
 }
 
+
 #work h2 {
   color:  #4e010a;
+  text-align: end;
+}
+
+#work img {
+  width: 90%;
 }
   
