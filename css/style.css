@@ -99,10 +99,16 @@ h6 {
   flex-direction: column;
   align-items: flex-start;
   gap: 10px;
-  color: white;
   margin-top: 30px;
 }
 
+.sidebar i {
+  color: white;
+}
+
+.sidebar i:hover {
+  color:  #5e6c9b;
+}
 
 
 
