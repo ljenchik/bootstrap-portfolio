@@ -124,5 +124,6 @@ h6 {
 
 #work img {
   width: 90%;
+  max-height: 300px;
 }
   
