@@ -7,6 +7,7 @@ body {
 
 body {
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  background: #f1f1f7 !important;
 }
 
 h1,
@@ -36,10 +37,10 @@ h6 {
   font-size: 30px;
   
 }
+
 #mainNav a {
   color: #e9b4fe;
 }
-
 
 #mainNav .navbar-toggler {
   font-size: 14px;
@@ -88,10 +89,12 @@ h6 {
   background-size: cover;
   height: 232px;
   color:  #4e010a;
+  margin-bottom: 0 !important;
 }
 
 .jumbotron h3 {
   margin-top: -30px;
+  
 }
 
 .sidebar {
@@ -112,10 +115,13 @@ h6 {
 
 /* Work styles */
 
+#work {
+  margin-top: 32px;
+}
+
 #work .border-3 {
   border-right: 3px solid #4e010a;
 }
-
 
 #work h2 {
   color:  #4e010a;
@@ -126,4 +132,98 @@ h6 {
   width: 90%;
   max-height: 300px;
 }
-  
+
+.accordion .card{
+  background-color: #89b0e06f !important;
+}
+
+.accordion .card-body{
+  background: #f1f1f7;
+}
+
+.card-header h2 button {
+  color: #4e010a;
+}
+
+.card-header h2 button:hover,  .card-header h2 button:focus,
+button {
+  color: #5e6c9b;
+  text-decoration: none;
+  border: none !important;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+}
+
+/* Skills section styles */
+
+#skills {
+  margin-top: 32px;
+}
+
+#skills .border-3 {
+  border-right: 3px solid #4e010a;
+}
+
+#skills h2 {
+  color:  #4e010a;
+  text-align: end;
+}
+
+/* About me section styles*/
+
+#about {
+  margin-top: 32px;
+}
+
+#about .border-3 {
+  border-right: 3px solid #4e010a;
+}
+
+#about h2 {
+  color:  #4e010a;
+  text-align: end;
+}
+
+/* Contact  section styles*/
+
+#contact {
+  margin-top: 32px;
+}
+
+#contact .border-3 {
+  border-right: 3px solid #4e010a;
+}
+
+#contact h2 {
+  color:  #4e010a;
+  text-align: end;
+}
+
+#contact .links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#contact i {
+  color:  #4e010a;
+}
+
+#contact i:hover {
+  color:  #8aabd9;
+}
+
+/* Footer section */
+
+footer {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  border-color: rgba(34, 34, 34, 0.05);
+  background-image: linear-gradient(to right, #4e010a,#611745 25%,
+  #775e8c, #b4b3de, #77a9d3);
+  height: 50px;
+}
+
+footer p {
+  padding: 15px;
+}
