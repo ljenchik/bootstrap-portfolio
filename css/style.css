@@ -7,7 +7,7 @@ body {
 
 body {
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
-  background: #f1f1f76b !important;
+  background: #edf7fe1e!important;
 }
 
 h1,
@@ -125,15 +125,17 @@ h6 {
 }
 
 .accordion .card{
-  background-color: #89b0e06f !important;
+  background-color: 
+  #dfd6fc42;
 }
 
 .accordion .card-body{
-  background: #f1f1f7;
+  background: white;
 }
 
 .card-header h2 button {
-  color: #4e010a;
+  color:  #4e010a;
+  font-size: 20px;
 }
 
 .card-header h2 button:hover,  .card-header h2 button:focus,
@@ -162,7 +164,7 @@ button {
 }
 
 #contact i:hover {
-  color:  #8aabd9;
+  color: #5e6c9b;
 }
 
 /* Footer section */
