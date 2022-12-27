@@ -25,12 +25,23 @@ h6 {
 /* Navbar */
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
-  background-image: linear-gradient(to right, #4e010a,#611745 25%,
+  background: linear-gradient(to right, #4e010a,#611745 25%,
   #775e8c, #b4b3de, #77a9d3);
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
+  height: 70px;
 } 
+
+#mainNav .header {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  position: absolute;
+  left: 20px;
+  top: 10px;
+}
+
 
 #mainNav .navbar-brand{
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
@@ -38,6 +49,7 @@ h6 {
   letter-spacing: 1px;
   font-size: 30px;
   color: white;
+  
 }
 
 #mainNav .navbar-toggler {
@@ -45,10 +57,12 @@ h6 {
   color:  #4e010a;
 }
 
+
 #mainNav .navbar-nav > li > a {
   font-size: 16px;
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   letter-spacing: 2px;
+  font-weight: 400;
 }
 
 #mainNav .navbar-nav > li > a.active,
@@ -79,13 +93,13 @@ h6 {
   background-image: url("/images/hero.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 232px;
+  height: 270px;
   color:  #4e010a;
   margin-bottom: 0 !important;
 }
 
 .jumbotron h3 {
-  margin-top: -30px;
+  margin-top: 0px;
 }
 
 .sidebar {
@@ -197,4 +211,25 @@ footer {
 
 footer p {
   padding: 15px;
+}
+
+@media screen and (max-width: 991px){
+  /* Styles for all sections */
+.section .media {
+  margin-bottom: 20px !important;
+  float: right;
+}
+  
+.section .border-3 {
+  border-bottom: 3px solid #4e010a;
+  margin: 0 20px 20px 20px;
+  border-right: none;
+}
+
+#work img {
+  max-width: 60%;
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
 }
