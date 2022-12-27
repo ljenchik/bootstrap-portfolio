@@ -42,6 +42,10 @@ h6 {
   top: 10px;
 }
 
+#mainNav .bg {
+  background: linear-gradient(to right, #4e010a,#611745 25%,
+  #775e8c, #b4b3de, #77a9d3);
+}
 
 #mainNav .navbar-brand{
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
@@ -87,6 +91,7 @@ h6 {
 #mainNav i:hover {
   color: #5e6c9b;
 }
+
 
 /* Hero section */
 .jumbotron {
