@@ -6,7 +6,8 @@ body {
 }
 
 body {
-  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  /* font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif'; */
+  font-family: 'Sansita Swashed', cursive;
   background: linear-gradient(to right, #c4eafd38,#e7bed72d,
 #b4b3de3d, #77aad33c);
 }
@@ -17,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Sansita Swashed', cursive;
   font-weight: 200;
 }
 
@@ -26,7 +27,6 @@ h6 {
   border-color: rgba(34, 34, 34, 0.05);
   background: linear-gradient(to right, #4e010a,#611745 25%,
   #775e8c, #b4b3de, #77a9d3);
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 } 
@@ -36,22 +36,16 @@ h6 {
   justify-content: center;
   gap: 20px;
   position: absolute;
+  margin-top: 0;
   left: 20px;
-  top: 10px;
-}
-
-#mainNav .bg {
-  background: linear-gradient(to right, #4e010a,#611745 25%,
-  #775e8c, #b4b3de, #77a9d3);
+  top: 5px;
+  font-family: 'Sansita Swashed', cursive;
 }
 
 #mainNav .navbar-brand{
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-  font-weight: 200;
   letter-spacing: 1px;
   font-size: 30px;
   color: white;
-  
 }
 
 #mainNav .navbar-toggler {
@@ -62,7 +56,7 @@ h6 {
 
 #mainNav .navbar-nav > li > a {
   font-size: 16px;
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Sansita Swashed', cursive;
   letter-spacing: 2px;
   font-weight: 400;
 }
@@ -136,6 +130,10 @@ h6 {
   text-align: end;
 }
 
+.section p{
+font-family: 'Source Sans Pro', sans-serif;
+}
+
 /* Work styles */
 #work .card-body .row {
   justify-content: center;
@@ -153,7 +151,8 @@ h6 {
 }
 
 .accordion .card-body{
-  background: white;
+  background: linear-gradient(to right, #c4eafd19,#e7bed712,
+#b4b3de14, #77aad30f);
 }
 
 .card-header h2 button {
@@ -169,10 +168,25 @@ button {
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
 }
 
+#work .description {
+  font-family: 'Sansita Swashed', cursive;
+  color:  #4e010a;
+}
+
 /* Skills section styles */
 #skills i {
   color: #4e010a;
   margin: 10px;
+}
+
+#skills ul {
+  list-style: none;
+}
+
+#skills ul li p:before {
+  content: '✓';
+  padding-right: 10px;
+  color:  #4e010a;
 }
 
 /* About me section styles*/
@@ -218,7 +232,7 @@ footer p {
 
 @media screen and (max-width: 991px){
   /* Styles for all sections */
-.section .media {
+.section .section-title {
   margin-bottom: 20px !important;
   float: right;
 }
@@ -231,7 +245,7 @@ footer p {
 
 #work img {
   max-width: 60%;
-  max-height: 300px;
+  max-height: 350px;
   margin-bottom: 20px;
 }
 
