@@ -92,7 +92,7 @@ h6 {
 
 /* Hero section */
 .jumbotron {
-  background-image: url("/images/hero.png");
+  background-image: url("../images/hero.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 270px;
