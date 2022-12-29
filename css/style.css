@@ -212,6 +212,10 @@ button {
   color: #5e6c9b;
 }
 
+#contact .modal, span {
+  color:  #4e010a;
+}
+
 /* Footer section */
 
 footer {
