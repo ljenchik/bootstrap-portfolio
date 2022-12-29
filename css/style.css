@@ -33,13 +33,13 @@ h6 {
 
 #mainNav .header {
   display: flex;
-  justify-content: center;
   gap: 20px;
-  position: absolute;
-  margin-top: 0;
-  left: 20px;
-  top: 5px;
   font-family: 'Sansita Swashed', cursive;
+}
+
+#mainNav .container {
+  margin: 0;
+  justify-content: space-between;
 }
 
 #mainNav .navbar-brand{
@@ -53,11 +53,9 @@ h6 {
   color:  #4e010a;
 }
 
-
 #mainNav button {
   font-size: 30px;
 }
-
 
 #mainNav .navbar-nav > li > a {
   font-size: 16px;
@@ -95,13 +93,9 @@ h6 {
   background-image: url("../images/hero.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 270px;
+  height: 265px;
   color:  #4e010a;
   margin-bottom: 0 !important;
-}
-
-.jumbotron h3 {
-  margin-top: 0px;
 }
 
 .sidebar {
@@ -265,26 +259,29 @@ footer p {
   #mainNav button {
     font-size: 20px;
   }
-  
 
   .sidebar {
     font-size: 14px;
     margin-top: 40px;
   }
   
-
   .jumbotron {
-    height: 240px;
+    height: 255px;
   }
+
+  .jumbotron h3 {
+    font-size: 25px;
+    margin-top: 30px;
+  }
+
 
   .section h2 {
     font-size: 25px;
   }
 
-#work img {
-  max-width: 70%;
-  max-height: 350px;
-  margin-bottom: 20px;
-}
-
+  #work img {
+    max-width: 70%;
+    max-height: 350px;
+    margin-bottom: 20px;
+  }
 }
