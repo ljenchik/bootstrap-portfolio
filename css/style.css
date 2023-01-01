@@ -214,8 +214,9 @@ button {
   color:  #4e010a;
 }
 
-#contact button {
+#contact .no-padding {
   padding: 0;
+  background-color: none;
 }
 /* Footer section */
 
