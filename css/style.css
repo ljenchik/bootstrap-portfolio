@@ -51,6 +51,7 @@ h3
 
 #mainNav button {
   font-size: 30px;
+  border: none;
 }
 
 #mainNav .navbar-nav > li > a {
@@ -69,10 +70,6 @@ h3
 #mainNav .navbar-nav > li > a:hover,
 #mainNav .navbar-nav > li > a:focus:hover {
   color:  #4e010a;
-}
-
-#mainNav button {
-  border: none;
 }
 
 #mainNav i {
@@ -233,6 +230,7 @@ footer p {
 
 @media screen and (max-width: 991px){
   /* Styles for all sections */
+  
 .section .section-title {
   margin-bottom: 20px !important;
   float: right;
