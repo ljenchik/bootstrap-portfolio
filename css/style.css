@@ -203,6 +203,7 @@ button {
 
 #contact i {
   color:  #4e010a;
+
 }
 
 #contact i:hover {
@@ -213,6 +214,9 @@ button {
   color:  #4e010a;
 }
 
+#contact button {
+  padding: 0;
+}
 /* Footer section */
 
 footer {
