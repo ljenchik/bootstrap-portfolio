@@ -32,11 +32,11 @@ h3
   gap: 20px;
   font-family: 'Sansita Swashed', cursive;
 }
-
+/* 
 #mainNav .container {
   margin: 0;
   justify-content: space-between;
-}
+} */
 
 #mainNav .navbar-brand{
   letter-spacing: 1px;
