@@ -1,8 +1,8 @@
-# Bootstrap Portfolio
+# Portfolio
 
 ## A portfolio showcases my work and skills.
 
-### Site is live at https://ljenchik.github.io/bootstrap-portfolio/
+### Site is live at https://ljenchik.github.io/portfolio/
 
 I created my portfolio to showcase my work, skills and knowledge.
 It includes working links to my projects on GitHub and resume.
