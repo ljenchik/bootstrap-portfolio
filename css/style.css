@@ -32,11 +32,7 @@ h3
   gap: 20px;
   font-family: 'Sansita Swashed', cursive;
 }
-/* 
-#mainNav .container {
-  margin: 0;
-  justify-content: space-between;
-} */
+
 
 #mainNav .navbar-brand{
   letter-spacing: 1px;
@@ -69,7 +65,8 @@ h3
 
 #mainNav .navbar-nav > li > a:hover,
 #mainNav .navbar-nav > li > a:focus:hover {
-  color:  #4e010a;
+  /* color:  #4e010a; */
+  color:rgba(221, 42, 206, 0.588)
 }
 
 #mainNav i {
@@ -105,6 +102,27 @@ h3
 
 .sidebar i:hover {
   color:  #5e6c9b;
+  
+}
+
+.job-email {
+  display: flex;
+  flex-direction: column;
+  margin-top: -25px;
+}
+
+.job-email a {
+  color: #4e010a !important;
+  font-family: 'Sansita Swashed', cursive;
+}
+
+.job-email i {
+  padding-right: 10px;
+}
+
+.job-email a:hover {
+  color: rgba(221, 42, 206, 0.465) !important;
+  text-decoration: none;
 }
 
 
