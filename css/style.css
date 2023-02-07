@@ -66,7 +66,8 @@ h3
 #mainNav .navbar-nav > li > a:hover,
 #mainNav .navbar-nav > li > a:focus:hover {
   /* color:  #4e010a; */
-  color:rgba(221, 42, 206, 0.588)
+  /* color:rgba(221, 42, 206, 0.588); */
+  color:  #5e6c9b;
 }
 
 #mainNav i {
@@ -106,8 +107,8 @@ h3
 }
 
 .job-email {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   margin-top: -25px;
 }
 
@@ -121,8 +122,9 @@ h3
 }
 
 .job-email a:hover {
-  color: rgba(221, 42, 206, 0.465) !important;
+  /* color: rgba(221, 42, 206, 0.465) !important; */
   text-decoration: none;
+  color:  #5e6c9b !important;
 }
 
 
