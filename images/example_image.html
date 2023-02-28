@@ -1,0 +1,40 @@
+<!-- CONDITIONAL IMAGE FOR SHOPIFY CART ABANDON-->
+<!-- Define button container -->
+
+<div align="center" class="button-container center" style="padding-right: 10px; padding-left: 10px; padding-top:10px; padding-bottom:10px;">
+
+<!-- BEGIN CONDITIONAL LOGIC -->
+{% if rs_str_1_usr_attr == null or rs_str_1_usr_attr == '' %}
+
+<!-- IF NO SHOPIFY CART LINK USE THE FOLLOWING BUTTON LINK-->
+     <a href="YOUR_LINK" 
+
+     target="_blank" style="display: inline;">  
+
+<!-- Define Link Object -->
+    <img src = "{{rs_riu1}}" alt="{{rs_rn1}}"/>
+    </a>
+<!-- End Link Object -->
+
+<!-- End Section for No Shopify Checkout Link -->
+
+<!-- Begin Section for Shopify Checkout Link -->
+{% else %}
+    <a href="{{rs_str_1_usr_attr}}" 
+
+    target="_blank" style="display: inline;">	
+
+<!-- Define Link Object -->
+
+    <img src = "{{rs_riu1}}" alt="{{rs_rn1}}"/>
+    </a>
+<!-- End Link Object -->
+
+<!-- End Section for Shopify Checkout Link -->	
+
+{% endif %}
+<!-- end conditional logic -->
+
+</div>
+
+
